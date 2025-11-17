@@ -48,11 +48,9 @@ onValue(datosRef, (snapshot) => {
   const cardSuelo = document.getElementById("cardSuelo");
   const cardTemp = document.getElementById("cardTemp");
 
-  
   if (aire < 30) cardAire.style.background = "#fff6b0";
   else if (aire <= 60) cardAire.style.background = "#d5f7d1";
   else cardAire.style.background = "#d9f0ff";
-
 
   if (suelo < 30) cardSuelo.style.background = "#ffc7c7";
   else if (suelo <= 60) cardSuelo.style.background = "#fff3a3";
